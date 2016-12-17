@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  position: relative;
+  font-size: 10px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.wrapper {
+  width: 310px;
+  margin: 0 auto;
+}
+header {
+  margin-bottom: 1.5rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #003d5b;
+  text-align: center;
+  line-height: 0.9;
+}
+header small {  
+  color: #666666;
+  text-transform: lowercase;
+}
+main {
+  position: relative;
+}
+.quote-box {
+  //background-color: rgba(255, 0, 0, 0.1);
+}
+.author-box {
+  //background-color: rgba(255, 0, 0, 0.1);
+  margin-top: -80px;
+  margin-left: 180px;
+  
+}
+.circle {
+  display: table-cell;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.circle-quote {  
+  background-color: #20a077;
+  font-size: 1.5rem;
+  width: 310px;
+  height: 310px;
+  padding: 50px; 
+}
+.circle-author {
+  background-color: #003d5b;
+  font-size: 1.2rem;
+  width: 120px;
+  height: 120px;
+  padding: 25px; 
+}
+.btn-box {
+  text-align: center;
+  margin-top: 2rem;
+}
+footer {
+  text-align: center;
+  margin-top: 2rem;
+}
